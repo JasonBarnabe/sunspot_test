@@ -2,11 +2,11 @@
 #
 Gem::Specification.new do |s|
   s.name = "sunspot_test"
-  s.version = "0.4.0"
+  s.version = "0.4.0.1"
 
   s.authors = ["Zach Moazeni"]
   s.email = "zach@collectiveidea.com"
-  s.description = "Testing sunspot with cucumber can be a pain. This gem will automatically start/stop solr with cucumber scenarios tagged with @search"
+  s.description = "sunspot_test 0.4 with https://github.com/collectiveidea/sunspot_test/issues/20 and https://github.com/collectiveidea/sunspot_test/pull/23"
   s.summary = "Auto-starts solr for your cucumber tests"
   s.homepage = "https://github.com/collectiveidea/sunspot_test"
   s.license = "MIT"
